@@ -1,0 +1,17 @@
+{
+  "name": "casekeys",
+  "version": "0.0.1",
+  "author": "@aj0strow",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha casekeys-test.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash.camelcase": "^3.0.1",
+    "lodash.isplainobject": "^3.2.0",
+    "lodash.snakecase": "^3.0.1"
+  }
+}
