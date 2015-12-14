@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "author": "@aj0strow",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aj0strow/casekeys.git"
+  },
   "scripts": {
     "test": "mocha casekeys-test.js"
   },
