@@ -1,6 +1,6 @@
 var camelCase = require("lodash.camelcase")
 var snakeCase = require("lodash.snakecase")
-var isPlainObject = require("lodash.isPlainObject")
+var isPlainObject = require("lodash.isplainobject")
 
 exports.camelCase = function (object) {
   return mapKeysDeep(object, camelCase, 0)
