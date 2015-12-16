@@ -48,11 +48,5 @@ describe("casekeys", function () {
       var snakeObject = casekeys.snakeCase(object)
       assert.equal(snakeObject.created, now)
     })
-    
-    it("should throw error for custom objects", function () {
-      assert.throws(function () {
-        casekeys.snakeCase(new Error())
-      })      
-    })
   })
 })

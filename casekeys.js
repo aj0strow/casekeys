@@ -1,6 +1,8 @@
 var camelCase = require("lodash.camelcase")
 var snakeCase = require("lodash.snakecase")
-var isPlainObject = require("lodash.isplainobject")
+var isObject = require("lodash.isobject")
+var isDate = require("lodash.isdate")
+var isRegExp = require("lodash.isregexp")
 
 exports.camelCase = function (object) {
   return mapKeysDeep(object, camelCase, 0)
@@ -21,7 +23,7 @@ function mapKeysDeep (object, func, depth) {
     })
   }
   
-  if (isPlainObject(object)) {
+  if (isObject(object) && !isRegExp(object) && !isDate(object)) {
     var mapped = {}
     Object.keys(object).forEach(function (key) {
       mapped[ func(key) ] = mapKeysDeep(object[key], func, depth + 1)

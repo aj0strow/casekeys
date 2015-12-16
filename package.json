@@ -1,6 +1,6 @@
 {
   "name": "casekeys",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "@aj0strow",
   "main": "index.js",
   "repository": {
@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "lodash.camelcase": "^3.0.1",
-    "lodash.isplainobject": "^3.2.0",
+    "lodash.isdate": "^3.0.1",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isregexp": "^3.0.3",
     "lodash.snakecase": "^3.0.1"
   }
 }
