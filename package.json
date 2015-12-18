@@ -2,6 +2,7 @@
   "name": "casekeys",
   "version": "0.0.2",
   "author": "@aj0strow",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
